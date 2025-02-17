@@ -51,7 +51,7 @@ async function run(
     const client = new issuer.Client(new MsoDeviceCodeClientMedata(clientId));
 
     // Set timeout to 5s to workaround issue #18
-    // https://github.com/gsoft-inc/azure-devops-npm-auth/issues/18
+    // https://github.com/workleap/azure-devops-npm-auth/issues/18
     client[custom.http_options] = function (options) {
       options.timeout = 5000;
       return options;

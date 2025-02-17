@@ -24,7 +24,7 @@
     "azure-devops-npm-auth": "dist/cli.js"
   },
   "author": "Yohan Belval",
-  "repository": "https://github.com/gsoft-inc/azure-devops-npm-auth.git",
+  "repository": "https://github.com/workleap/azure-devops-npm-auth.git",
   "license": "Apache-2.0",
   "dependencies": {
     "chalk": "^3.0.0",
